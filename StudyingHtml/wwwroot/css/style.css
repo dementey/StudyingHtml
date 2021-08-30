@@ -1,0 +1,399 @@
+﻿body {
+    width: 1438px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    width: 250px;
+    height: 40.2px;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 770px;
+    background-image: url(../Images/bg.jpg);
+    color: aliceblue;
+}
+
+.lower-header {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.upper-header-top {
+    font-size: 40px;
+    font-family: "Bebas Neue";
+}
+
+.upper-header-middle-big {
+    font-family: "Bebas Neue";
+    font-size: 100px;
+    margin: 0;
+}
+
+.upper-header-middle-little {
+    font-size: 20px;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 0;
+}
+
+.upper-header-bot {
+    font-size: 20px;
+    font-family: "Open Sans";
+    letter-spacing: 10px;
+}
+
+.lower-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    margin-left: 40%;
+    font-family: "Open Sans";
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.lower-header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    font-family: "Bebas Neue";
+    font-size: 160%;
+}
+
+.lower-header-a {
+    margin: 0 3% 0 3%;
+    color: black;
+}
+
+    .lower-header-a:hover {
+        color: #00A4E5;
+    }
+
+.story {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.about {
+    display: flex;
+    margin: 4% 0 0 10%;
+}
+
+.story-our {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.border-blue {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #00A4E5;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-left-bot {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.about-left-top-p {
+    display: flex;
+    margin: 3px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.about-left-bot-p {
+    display: flex;
+    margin: 3px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    color: #48555B;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-right-p {
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding: 0 0 0 15px;
+    font-size: 25px;
+}
+
+.plan {
+    background-image: url(../Images/Bitmapfirst.jpg);
+    color: #ffffff;
+    width: 140px;
+    height: 224px;
+    padding: 0;
+    margin-left: 150px;
+}
+
+.manage {
+    background-image: url(../Images/Bitmapsecond.jpg);
+    color: #ffffff;
+    width: 140px;
+    height: 224px;
+    margin-left: 50px;
+}
+
+.build {
+    background-image: url(../Images/Bitmapthird.jpg);
+    color: #ffffff;
+    width: 140px;
+    height: 224px;
+    margin-left: 50px;
+}
+
+.capabilities {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 11% 0 10%;
+}
+
+.capabilities-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.capabilities-top-our {
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.capabilities-top-text {
+    font-family: "Open Sans";
+    font-size: 75%;
+    justify-content: center;
+    padding-top: 15px;
+    margin: 1px;
+    color: #48555B;
+}
+
+.capabilities-top-botton-a {
+    font-family: "Open Sans";
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #00A4E5; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 12px 30px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+
+.capabilities-bot {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.capabilities-bot-first {
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #E6E6E6;
+    padding: 40px 0 0 40px;
+    width: 295px;
+    height: 300px;
+}
+
+.picture-first {
+    background-image: url(../Images/capabilities-bot-first.png);
+    width: 65.62px;
+    height: 75px;
+}
+
+.picture-second {
+    background-image: url(../Images/capabilities-bot-second.png);
+    width: 67.74px;
+    height: 75px;
+}
+
+.picture-third {
+    background-image: url(../Images/capabilities-bot-third.png);
+    width: 70.59px;
+    height: 75px;
+}
+
+.capabilities-bot-mid-p {
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding-top: 10px;
+    color: #48555B;
+    font-size: 16px;
+}
+
+.capabilities-bot-bot-p {
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #48555B;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.footer-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Images/bgBot.png);
+    height: 498px;
+}
+
+.footer-bg-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.footer-bg-p {
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    color: #48555B;
+}
+
+.signup {
+    display: flex;
+    height: 100px;
+    background: black;
+}
+
+.signup-letter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-family: "Open Sans";
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.footer-inf {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    height: 240px;
+    background: black;
+}
+
+.footer-inf {
+    display: flex;
+}
+
+.company {
+    height: 148px;
+}
+
+.konstruct-p {
+    display: flex;
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    color: white;
+}
+
+.company-p {
+    font-size: 18px;
+    line-height: 15px;
+    font-family: "Open Sans";
+    color: white;
+}
+
+.company-p-bot {
+    font-size: 11px;
+    font-family: "Open Sans";
+    color: white;
+}
+
+.links-first {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-a {
+    margin: 0 3% 0 3%;
+    color: white;
+    font-size: 11px;
+    line-height: 25px;
+    font-family: "Open Sans";
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+.messengers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icon {
+    width: 12.04px;
+    height: 12.04px;
+    margin-top: 55px;
+    margin-right: 30px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 60px;
+    font-size: 11px;
+    padding-top: 17px;
+    font-family: "Open Sans";
+    color: white;
+    background-color: black;
+}
